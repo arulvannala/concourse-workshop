@@ -1,6 +1,6 @@
 ---
 applications:
-- name: concourse-demo-boot
+- name: concourse-demo-alpha
   memory: 1024M
   instances: 1
   buildpack: java_buildpack
