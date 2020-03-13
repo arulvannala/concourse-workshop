@@ -13,7 +13,7 @@ image::fly.png[]
 [source,bash]
 ---------------------------------------------------------------------
 $ fly -version                                                                                                                                  1 ↵
-3.5.0
+5.0.0
 ---------------------------------------------------------------------
 
 == Target and Login to Concourse Env
@@ -23,7 +23,7 @@ $ fly -version                                                                  
 [source,bash]
 ---------------------------------------------------------------------
 $ fly --target ci login \
-      --concourse-url https://ci.pcfplatform.net/ -k
+      --concourse-url https://ci.gini.pcflab.net/ -k
       --team-name <alpha,bravo,charlie,delta,echo>
 ---------------------------------------------------------------------
 
@@ -33,15 +33,15 @@ $ fly --target ci login \
 ---------------------------------------------------------------------
 
 logging in to team ...                                                                                                                              1 ↵
-username: <alpha,bravo,charlie,delta,echo>
-password: <alpha,bravo,charlie,delta,echo>
+username: yyyyyy
+password: xxxxxx
 
 target saved
 ---------------------------------------------------------------------
 
 == Create a GIT repository to hold your concourse pipeline and artifacts
 
-. Fork this git repository:  https://github.com/nsagoo-pivotal/concourse-workshop
+. Fork this git repository:  https://github.com/avannala/concourse-workshop
 
 . Clone this repository to your local desktop
 +
