@@ -1,12 +1,14 @@
 = Concourse CI/CD Workshop
 == Overview
 [.lead]
-This 2 hour hands-on session will provide developers and operators with hands on experience building delivery pipelines using Concourse. The session includes presentations and hands on labs.
+This is 4 hour hands-on session will provide developers and operators with hands on experience building delivery pipelines using Concourse. The session includes presentations and hands on labs.
 
 == Content
 
 Presentation ::
- * Intro to Concourse: link:presentation/concourse.pptx[_Concourse Intro_]
+ * Intro to Concourse:
+
+How labs are built:
 
 Labs::
  * link:labs/pre-reqs.adoc[_Setup Environment Pre-reqs_]
