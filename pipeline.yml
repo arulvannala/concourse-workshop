@@ -3,8 +3,8 @@ resources:
   type: git
   source:
     branch: master
-    uri: https://github.com/mdm1168/concourse-workshop
-    
+    uri: https://github.com/arulvannala/concourse-workshop
+
 jobs:
 - name: hello
   plan:

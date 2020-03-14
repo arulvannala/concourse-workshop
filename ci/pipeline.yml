@@ -3,7 +3,7 @@ resources:
   type: git
   source:
     branch: master
-    uri: https://github.com/mdm1168/concourse-workshop
+    uri: https://github.com/arulvannala/concourse-workshop #Add your git repo
 - name: cloudfoundry
   type: cf
   source:
@@ -12,7 +12,7 @@ resources:
     space: {{cf-space}}
     username: {{cf-username}}
     password: {{cf-password}}
-    
+
 jobs:
 - name: unit-test
   plan:
@@ -31,4 +31,4 @@ jobs:
   - put: cloudfoundry
     params:
       manifest: git-assets/manifest.yml
-      path: app-output/concourse-demo.jar    
+      path: app-output/concourse-demo.jar
