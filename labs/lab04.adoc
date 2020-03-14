@@ -144,7 +144,7 @@ jobs:
 +
 [source,bash]
 ---------------------------------------------------------------------
-$ fly -t ci set-pipeline -p pipeline-<LASTNAME> -c ci/pipeline.yml
+$ fly -t gini set-pipeline -p pipeline-<LASTNAME> -c ci/pipeline.yml
 ---------------------------------------------------------------------
 
 . You'll note your pipeline now steps (or jobs).  1) Unit test your code and 2) Package/Deploy your code.  Step #2 will only kickoff if Step #1 is successful
