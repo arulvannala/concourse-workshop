@@ -45,7 +45,7 @@ resources:
   type: git
   source:
     branch: master
-    uri: https://github.com/nsagoo-pivotal/concourse-workshop
+    uri: https://github.com/arulvannala/concourse-workshop
 - name: cloudfoundry
   type: cf
   source:
@@ -92,7 +92,7 @@ jobs:
 
 [source,bash]
 ---------------------------------------------------------------------
-$ fly -t ci set-pipeline -p pipeline-<LASTNAME> -c ci/pipeline.yml -l credentials.yml
+$ fly -t gini set-pipeline -p pipeline-<LASTNAME> -c ci/pipeline.yml -l credentials.yml
 ---------------------------------------------------------------------
 
 . If you refresh the Concourse web UI you'll note the resource output of _cloudfoundry_ has been added.

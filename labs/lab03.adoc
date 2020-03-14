@@ -11,7 +11,7 @@ resources:
   type: git
   source:
     branch: master
-    uri: https://github.com/nsagoo-pivotal/concourse-workshop
+    uri: https://github.com/arulvannala/concourse-workshop
 ---------------------------------------------------------------------
 
 . Modify the previous "hello" job in the jobs section of the file to add a new task to the pipeline that will GET the git repository:

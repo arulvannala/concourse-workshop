@@ -6,23 +6,26 @@
 +
 [source, bash]
 ---------------------------------------------------------------------
+---
 platform: linux
+
 image_resource:
   type: docker-image
-  source: {repository: ubuntu}
+  source: {repository: busybox}
+
 run:
   path: echo
-  args: ["Hello, My first pipeline!"]
+  args: [Welcome to concourse workshop]
 ---------------------------------------------------------------------
 
 . To execute the concourse task on your local workstation execute the following fly command.  Your environment may pull down a docker image after which you will see the task initialize and execute.
 +
 [source,bash]
 ---------------------------------------------------------------------
-$ fly -t ci execute -c pipeline.yml
+$ fly -t gini execute -c pipeline.yml
 executing build 79
 initializing
-running echo Hello, My first pipeline!
-Hello, My first pipeline!
+running echo Welcome to concourse workshop
+Welcome to concourse workshop
 succeeded
 ---------------------------------------------------------------------
