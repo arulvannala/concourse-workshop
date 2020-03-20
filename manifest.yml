@@ -3,4 +3,4 @@ applications:
 - name: concourse-demo-app
   memory: 1024M
   instances: 1
-  buildpack: java_buildpack_offline
+  
