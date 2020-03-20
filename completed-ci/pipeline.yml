@@ -3,7 +3,7 @@ resources:
   type: git
   source:
     branch: master
-    uri: https://github.com/nsagoo-pivotal/concourse-workshop
+    uri: https://github.com/arulvannala/concourse-workshop
 - name: cloudfoundry
   type: cf
   source:
