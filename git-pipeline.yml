@@ -8,8 +8,6 @@ resources:
 jobs:
 - name: hello
   plan:
-  - get: git-assets
-    trigger: true
   - task: howdy
     config:
       platform: linux
@@ -18,4 +16,6 @@ jobs:
         source: {repository: ubuntu}
       run:
         path: echo
-        args: ["Hello, My first commit!"]
+        args: [" My first commit!"]
+  - get: git-assets
+    trigger: true
